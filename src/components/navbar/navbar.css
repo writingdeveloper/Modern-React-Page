@@ -56,14 +56,15 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  border-radius: 5px;
-  border: 0;
+  border: none;
   outline: none;
   cursor: pointer;
+  border-radius: 5px;
 }
 
 .gpt3__navbar-menu {
   margin-left: 1rem;
+
   display: none;
   position: relative;
 }
@@ -102,6 +103,7 @@
   .gpt3__navbar-links_container {
     display: none;
   }
+
   .gpt3__navbar-menu {
     display: flex;
   }
